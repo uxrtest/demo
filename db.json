@@ -1,14 +1,20 @@
 {
   "students": [
-    { "id": 1, "name": "Sam", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
-    { "id": 2, "title": "Post 12" },
-    { "id": 3, "title": "Post 13" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    { "id": 1, "name": "Sam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Lam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Ram", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Qam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Wam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Eam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Ram", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Tam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Yam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Uam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Iam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Oam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Sam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Pam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Aam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} },
+    { "id": 1, "name": "Dam", "attendance": "77%", "marks" : {"english" : 50, "math" : 60, "social" : 36, "science" : 88, "secondLang" : 55,"firstLang" : 78} }
+  ]
 }
