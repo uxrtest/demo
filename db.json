@@ -15,6 +15,7 @@
     { "id": 13, "name": "Sam", "attendance": "84%", "marks" : {"english" : 88, "math" : 26, "social" : 88, "science" : 25, "secondLang" : 95,"firstLang" : 47} },
     { "id": 14, "name": "Pam", "attendance": "95%", "marks" : {"english" : 95, "math" : 73, "social" : 95, "science" : 74, "secondLang" : 57,"firstLang" : 88} },
     { "id": 15, "name": "Aam", "attendance": "68%", "marks" : {"english" : 85, "math" : 84, "social" : 82, "science" : 77, "secondLang" : 29,"firstLang" : 61} },
-    { "id": 16, "name": "Dam", "attendance": "23%", "marks" : {"english" : 46, "math" : 88, "social" : 22, "science" : 39, "secondLang" : 44,"firstLang" : 51} }
+    { "id": 16, "name": "Dam", "attendance": "23%", "marks" : {"english" : 46, "math" : 88, "social" : 22, "science" : 39, "secondLang" : 44,"firstLang" : 51} },
+    { "id": 17, "name": "Dam", "attendance": "23%", "marks" : {"english" : 46, "math" : 88, "social" : 22, "science" : 39, "secondLang" : 44,"firstLang" : 51} }
   ]
 }
