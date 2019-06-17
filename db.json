@@ -1,21 +1,429 @@
 {
   "students": [
-    { "id": 1, "name": "Sam", "attendance": "77%", "marks" : {"english" : 50, "math" : 74, "social" : 36, "science" : 74, "secondLang" : 74,"firstLang" : 47} },
-    { "id": 2, "name": "Lam", "attendance": "21%", "marks" : {"english" : 35, "math" : 85, "social" : 74, "science" : 82, "secondLang" : 58,"firstLang" : 58} },
-    { "id": 3, "name": "Ram", "attendance": "56%", "marks" : {"english" : 67, "math" : 96, "social" : 84, "science" : 35, "secondLang" : 88,"firstLang" : 88} },
-    { "id": 4, "name": "Qam", "attendance": "78%", "marks" : {"english" : 68, "math" : 84, "social" : 74, "science" : 46, "secondLang" : 38,"firstLang" : 78} },
-    { "id": 5, "name": "Wam", "attendance": "44%", "marks" : {"english" : 46, "math" : 84, "social" : 55, "science" : 58, "secondLang" : 95,"firstLang" : 68} },
-    { "id": 6, "name": "Eam", "attendance": "89%", "marks" : {"english" : 97, "math" : 73, "social" : 63, "science" : 44, "secondLang" : 83,"firstLang" : 78} },
-    { "id": 7, "name": "Ram", "attendance": "56%", "marks" : {"english" : 84, "math" : 23, "social" : 36, "science" : 95, "secondLang" : 46,"firstLang" : 96} },
-    { "id": 8, "name": "Tam", "attendance": "99%", "marks" : {"english" : 73, "math" : 63, "social" : 57, "science" : 83, "secondLang" : 74,"firstLang" : 36} },
-    { "id": 9, "name": "Yam", "attendance": "45%", "marks" : {"english" : 74, "math" : 85, "social" : 58, "science" : 73, "secondLang" : 71,"firstLang" : 88} },
-    { "id": 10, "name": "Uam", "attendance": "68%", "marks" : {"english" : 85, "math" : 94, "social" : 84, "science" : 76, "secondLang" : 65,"firstLang" : 83} },
-    { "id": 11, "name": "Iam", "attendance": "79%", "marks" : {"english" : 75, "math" : 62, "social" : 73, "science" : 84, "secondLang" : 51,"firstLang" : 61} },
-    { "id": 12, "name": "Oam", "attendance": "65%", "marks" : {"english" : 43, "math" : 24, "social" : 72, "science" : 66, "secondLang" : 47,"firstLang" : 83} },
-    { "id": 13, "name": "Sam", "attendance": "84%", "marks" : {"english" : 88, "math" : 26, "social" : 88, "science" : 25, "secondLang" : 95,"firstLang" : 47} },
-    { "id": 14, "name": "Pam", "attendance": "95%", "marks" : {"english" : 95, "math" : 73, "social" : 95, "science" : 74, "secondLang" : 57,"firstLang" : 88} },
-    { "id": 15, "name": "Aam", "attendance": "68%", "marks" : {"english" : 85, "math" : 84, "social" : 82, "science" : 77, "secondLang" : 29,"firstLang" : 61} },
-    { "id": 16, "name": "Dam", "attendance": "23%", "marks" : {"english" : 46, "math" : 88, "social" : 22, "science" : 39, "secondLang" : 44,"firstLang" : 51} },
-    { "id": 17, "name": "Dam", "attendance": "23%", "marks" : {"english" : 46, "math" : 88, "social" : 22, "science" : 39, "secondLang" : 44,"firstLang" : 51} }
+    {
+      "id": 1,
+      "name": "Sam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "67%",
+        "jun": "77%",
+        "jul": "78%",
+        "aug": "79%",
+        "sep": "72%",
+        "oct": "70%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 50,
+        "math": 74,
+        "social": 36,
+        "science": 74,
+        "secondLang": 74,
+        "firstLang": 47
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lam",
+      "attendance": {
+        "jan": "36%",
+        "feb": "46%",
+        "mar": "56%",
+        "apr": "67%",
+        "jun": "77%",
+        "jul": "78%",
+        "aug": "99%",
+        "sep": "92%",
+        "oct": "80%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 35,
+        "math": 85,
+        "social": 74,
+        "science": 82,
+        "secondLang": 58,
+        "firstLang": 58
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ram",
+      "attendance": {
+        "jan": "56%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "57%",
+        "jun": "77%",
+        "jul": "78%",
+        "aug": "49%",
+        "sep": "72%",
+        "oct": "70%",
+        "nov": "27%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 67,
+        "math": 96,
+        "social": 84,
+        "science": 35,
+        "secondLang": 88,
+        "firstLang": 88
+      }
+    },
+    {
+      "id": 4,
+      "name": "Qam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "96%",
+        "mar": "76%",
+        "apr": "67%",
+        "jun": "77%",
+        "jul": "58%",
+        "aug": "79%",
+        "sep": "92%",
+        "oct": "70%",
+        "nov": "47%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 68,
+        "math": 84,
+        "social": 74,
+        "science": 46,
+        "secondLang": 38,
+        "firstLang": 78
+      }
+    },
+    {
+      "id": 5,
+      "name": "Wam",
+      "attendance": {
+        "jan": "36%",
+        "feb": "66%",
+        "mar": "46%",
+        "apr": "57%",
+        "jun": "77%",
+        "jul": "68%",
+        "aug": "79%",
+        "sep": "72%",
+        "oct": "90%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 46,
+        "math": 84,
+        "social": 55,
+        "science": 58,
+        "secondLang": 95,
+        "firstLang": 68
+      }
+    },
+    {
+      "id": 6,
+      "name": "Eam",
+      "attendance": {
+        "jan": "46%",
+        "feb": "86%",
+        "mar": "76%",
+        "apr": "97%",
+        "jun": "77%",
+        "jul": "68%",
+        "aug": "79%",
+        "sep": "82%",
+        "oct": "70%",
+        "nov": "37%",
+        "dec": "51%"
+      },
+      "marks": {
+        "english": 97,
+        "math": 73,
+        "social": 63,
+        "science": 44,
+        "secondLang": 83,
+        "firstLang": 78
+      }
+    },
+    {
+      "id": 7,
+      "name": "Ram",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "67%",
+        "jun": "77%",
+        "jul": "78%",
+        "aug": "79%",
+        "sep": "72%",
+        "oct": "70%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 84,
+        "math": 23,
+        "social": 36,
+        "science": 95,
+        "secondLang": 46,
+        "firstLang": 96
+      }
+    },
+    {
+      "id": 8,
+      "name": "Tam",
+      "attendance": {
+        "jan": "66%",
+        "feb": "96%",
+        "mar": "76%",
+        "apr": "57%",
+        "jun": "87%",
+        "jul": "78%",
+        "aug": "49%",
+        "sep": "51%",
+        "oct": "79%",
+        "nov": "89%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 73,
+        "math": 63,
+        "social": 57,
+        "science": 83,
+        "secondLang": 74,
+        "firstLang": 36
+      }
+    },
+    {
+      "id": 9,
+      "name": "Yam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "67%",
+        "jun": "77%",
+        "jul": "78%",
+        "aug": "79%",
+        "sep": "72%",
+        "oct": "70%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 74,
+        "math": 85,
+        "social": 58,
+        "science": 73,
+        "secondLang": 71,
+        "firstLang": 88
+      }
+    },
+    {
+      "id": 10,
+      "name": "Uam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "36%",
+        "apr": "97%",
+        "jun": "77%",
+        "jul": "88%",
+        "aug": "79%",
+        "sep": "92%",
+        "oct": "70%",
+        "nov": "57%",
+        "dec": "71%"
+      },
+      "marks": {
+        "english": 85,
+        "math": 94,
+        "social": 84,
+        "science": 76,
+        "secondLang": 65,
+        "firstLang": 83
+      }
+    },
+    {
+      "id": 11,
+      "name": "Iam",
+      "attendance": {
+        "jan": "46%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "67%",
+        "jun": "97%",
+        "jul": "38%",
+        "aug": "79%",
+        "sep": "25%",
+        "oct": "70%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 75,
+        "math": 62,
+        "social": 73,
+        "science": 84,
+        "secondLang": 51,
+        "firstLang": 61
+      }
+    },
+    {
+      "id": 12,
+      "name": "Oam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "24%",
+        "apr": "67%",
+        "jun": "34%",
+        "jul": "78%",
+        "aug": "44%",
+        "sep": "54%",
+        "oct": "77%",
+        "nov": "66%",
+        "dec": "98%"
+      },
+      "marks": {
+        "english": 43,
+        "math": 24,
+        "social": 72,
+        "science": 66,
+        "secondLang": 47,
+        "firstLang": 83
+      }
+    },
+    {
+      "id": 13,
+      "name": "Sam",
+      "attendance": {
+        "jan": "56%",
+        "feb": "66%",
+        "mar": "86%",
+        "apr": "77%",
+        "jun": "57%",
+        "jul": "34%",
+        "aug": "45%",
+        "sep": "87%",
+        "oct": "65%",
+        "nov": "44%",
+        "dec": "22%"
+      },
+      "marks": {
+        "english": 88,
+        "math": 26,
+        "social": 88,
+        "science": 25,
+        "secondLang": 95,
+        "firstLang": 47
+      }
+    },
+    {
+      "id": 14,
+      "name": "Pam",
+      "attendance": {
+        "jan": "36%",
+        "feb": "46%",
+        "mar": "66%",
+        "apr": "22%",
+        "jun": "13%",
+        "jul": "15%",
+        "aug": "14%",
+        "sep": "98%",
+        "oct": "70%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 95,
+        "math": 73,
+        "social": 95,
+        "science": 74,
+        "secondLang": 57,
+        "firstLang": 88
+      }
+    },
+    {
+      "id": 15,
+      "name": "Aam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "88%",
+        "jun": "65%",
+        "jul": "56%",
+        "aug": "46%",
+        "sep": "78%",
+        "oct": "73%",
+        "nov": "23%",
+        "dec": "71%"
+      },
+      "marks": {
+        "english": 85,
+        "math": 84,
+        "social": 82,
+        "science": 77,
+        "secondLang": 29,
+        "firstLang": 61
+      }
+    },
+    {
+      "id": 16,
+      "name": "Dam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "67%",
+        "jun": "77%",
+        "jul": "78%",
+        "aug": "79%",
+        "sep": "72%",
+        "oct": "70%",
+        "nov": "87%",
+        "dec": "91%"
+      },
+      "marks": {
+        "english": 46,
+        "math": 88,
+        "social": 22,
+        "science": 39,
+        "secondLang": 44,
+        "firstLang": 51
+      }
+    },
+    {
+      "id": 17,
+      "name": "Dam",
+      "attendance": {
+        "jan": "76%",
+        "feb": "66%",
+        "mar": "76%",
+        "apr": "55%",
+        "jun": "34%",
+        "jul": "34%",
+        "aug": "65%",
+        "sep": "98%",
+        "oct": "45%",
+        "nov": "87%",
+        "dec": "98%"
+      },
+      "marks": {
+        "english": 46,
+        "math": 88,
+        "social": 22,
+        "science": 39,
+        "secondLang": 44,
+        "firstLang": 51
+      }
+    }
   ]
 }
